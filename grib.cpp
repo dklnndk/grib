@@ -26,7 +26,7 @@ std::string bytesToString(const std::vector<uint8_t>& bytes) {
 }
 
 int main() {
-    std::ifstream file("your_grib_file.grib", std::ios::binary);
+    std::ifstream file("all.grib", std::ios::binary);
 
     if (!file.is_open()) {
         std::cerr << "Failed to open file." << std::endl;
